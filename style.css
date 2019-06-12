@@ -1,0 +1,319 @@
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.navbar-custom {
+  background-color:#000000;
+  border-color:black;
+}
+.nav-link {
+  color: rgba(255, 129, 59, 0.87);
+}
+
+.custom-sizeone {
+  font-size: 20px;
+  margin: 7px;
+}
+
+.py-5{
+  background-color:black;
+}
+
+.custom-textss{
+  color:white;
+}
+.masthead1{
+  background-color: antiquewhite;
+}
+.py-3{
+  background-color: antiquewhite;
+}
+
+.masthead2{
+  height: 100vh;
+ min-height: 500px;
+ background-color:black;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.masthead3{
+  height: 100vh;
+ min-height: 500px;
+ background-color:black;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.masthead4{
+  height: 100vh;
+ min-height: 500px;
+ background-color:black;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.masthead5{
+  height: 100vh;
+ min-height: 500px;
+ background-color:black;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.custom-align{
+padding-top:35%;
+}
+.custom-f{
+  background-color: white;
+  margin-left: 30px;
+}
+.custom-align1{
+      padding-top:5%;
+  }
+.custom-align2{
+      padding-top:5%;
+    }
+.custom-align3{
+      padding-top:5%;
+      }
+.custom-align{
+      padding-top:5%;
+        }
+.aligncc{
+  padding-top:15%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+.bloc_left_price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+}
+.category_block li:hover {
+    background-color: #007bff;
+}
+.category_block li:hover a {
+    color: #ffffff;
+}
+.category_block li a {
+    color: #343a40;
+}
+.add_to_cart_block .price {
+    color: #c01508;
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 0;
+}
+.add_to_cart_block .price_discounted {
+    color: #343a40;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 140%;
+}
+.product_rassurance {
+    padding: 10px;
+    margin-top: 15px;
+    background: #ffffff;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+}
+.product_rassurance .list-inline {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.product_rassurance .list-inline li:hover {
+    color: #343a40;
+}
+.reviews_product .fa-star {
+    color: gold;
+}
+.pagination {
+    margin-top: 20px;
+}
+footer {
+    background: #343a40;
+    padding: 40px;
+}
+footer a {
+    color: #f8f9fa!important
+}
+
+
+.masthead-custom {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('slideone.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.bris{
+  filter: brightness(1.7);
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: black;
+}
+footer {
+    background: #000000;
+    padding: 40px;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f3e7dc;
+    text-align: left;
+    background-color: black;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: white;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    border-style: none;
+}
+
+.bg-primary {
+    background-color: #ff813b!important;
+}
+.card-header:first-child {
+    border-radius: 0;
+}
+.bg-success {
+    background-color: #ff813b!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #ff813b;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff813b;
+    border-color: #ff813b;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff813b;
+    border-color: #ff813b;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 129, 59, 0.18);
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    border-radius: 0;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
